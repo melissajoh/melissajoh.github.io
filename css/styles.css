@@ -1,9 +1,18 @@
 body {
     background-color: darkslategrey;
     color: white;
-    font: sans-serif;
+    font-family: sans-serif;
 }
 
 h1 {
     font-size: 1.8em;
+}
+
+section {
+    padding: 3px;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style: none;
 }
