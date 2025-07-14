@@ -63,8 +63,15 @@ a:hover {
 }
 
 #image-box {
-    margin: 4em -4em 10em auto;
+    margin: 4em -2em 10em auto;
 }
+
+#image-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: none;
+}
+
 
 #about-box {
     width: 500px;
