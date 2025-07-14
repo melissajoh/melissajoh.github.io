@@ -22,8 +22,8 @@
             <div id="about-box"><p id="pname">melissa johansson <span id="pwing">{</span></p><p id="pblue">&nbsp;&nbsp;&nbsp;&nbsp;title: <span id="spanred">recently graduated web programmer</span><span>;</span></p><p id="pblue">&nbsp;&nbsp;&nbsp;&nbsp;age: <span id="spanred">30</span><span>;</span></p><p id="pblue">&nbsp;&nbsp;&nbsp;&nbsp;hobbies: <span id="spangreen">painting videogaming crocheting nature</span><span>;</span></p><p id="pwing">}</p></div>
         </div>
             <div id="contact">
-            <a href="https://www.linkedin.com/in/melissa-johansson-9810b810a/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/melissajoh"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/melissa-johansson-9810b810a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/melissajoh" target="_blank"><i class="fa-brands fa-square-github"></i></a>
             <a href="mailto:melissa_johansson@hotmail.com"><i class="fa-solid fa-square-envelope"></i></a>
             </div>
     </section>
@@ -42,7 +42,20 @@
 
     <section id="projects">
         <h1>Projects</h1>
-        <p>showing projects</p>
+        <div id="project-1">
+            <div id="proj-img">
+                <img src="src/proj-1.png" style="width:300px">
+                <img src="src/proj-2.png" style="width:300px">
+            </div>
+            <p>An adventure game I made as a last project for my <i>Object-oriented web technologies</i> course. You play by reading and writing commands like "go north" (in Swedish). The game functionality relies a lot on an ORM database, classes and controllers along with an API. The database for example has a room and an items table to check where we are able to go, if an item can be or has been picked up and so on. The API has routes for the backpack, items and rooms to keep track. The images are made by me. The game is very simple and could definitely be developed further, but is an example of a coding project I have done in the past. Can be opened by cloning <a href="https://github.com/melissajoh/report-mvc" target="_blank">this repo</a> and navigating to "Projekt".</p>
+        </div>
+
+        <div id="project-2">            
+            <div id="proj-img">
+                <img src="src/cardgame-1.png" style="width:300px">
+                <img src="src/cardgame-2.png" style="width:300px">
+            </div>
+            <p>The card game "21" built with PHP using classes like Player, GameBoard and DeckOfCards to keep track of everything. You play against the bank where there is one "dumb" bank that is based on points and one "smart" bank based on statistics and percentages. Can also be opened and played by cloning <a href="https://github.com/melissajoh/report-mvc" target="_blank">this repo</a> (same as previous) and navigating to "Kortspel".</p></div>
     </section>
 
     <section id="education">

@@ -1,7 +1,7 @@
 body {
     background-color: #1A1A1A;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 70px 0px 0px;
 }
 
@@ -52,6 +52,7 @@ a:hover {
 
 #about {
     margin-bottom: 5em;
+    font-family: monospace;
 }
 
 #about-flex {
@@ -73,7 +74,6 @@ a:hover {
     height: 100%;
     object-fit: cover;
 }
-
 
 #about-box {
     width: 500px;
@@ -136,4 +136,31 @@ a:hover {
 #skillsdiv div {
     padding: 0px 1em;
     background-color: #9AAF90;
+}
+
+#projects div {
+    background-color: plum;
+    width: 700px;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+#proj-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#proj-img img {
+    margin: 1em;
+}
+
+#projects a {
+    padding: 0em;
+    color: gray;
+}
+
+#projects a:hover {
+    color: purple;
+    background-color: transparent;
 }
