@@ -1,7 +1,30 @@
 body {
-    background-color: darkslategrey;
+    background-color: #1A1A1A;
     color: white;
     font-family: sans-serif;
+    margin: 70px 0px 0px;
+}
+
+main {
+    margin-left: 10px;
+}
+
+nav {
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108, 60, 140);
+    margin: auto;
+}
+
+nav ul li {
+    margin: 1em 1.5em;
 }
 
 h1 {
@@ -10,7 +33,7 @@ h1 {
 
 section {
     padding: 3px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -18,11 +41,90 @@ ul {
 }
 
 a {
-    padding: 1em;
     color: white;
     text-decoration: none;
+    padding: 1.1em;
 }
 
 a:hover {
     background-color: black;
+}
+
+#about {
+    margin-bottom: 5em;
+}
+
+#about-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 700px;
+}
+
+#image-box {
+    margin: 4em -4em 10em auto;
+}
+
+#about-box {
+    width: 500px;
+    background-color: #212121;
+    padding: 1em;
+    margin: 3em auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+#pname {
+    color: #4A7FAA;
+}
+
+#pwing {
+    color: #F3CD02;
+}
+
+#pblue {
+    color: #85B9D4;
+}
+
+#pblue #spanred {
+    color: #B0806D;
+}
+
+#pblue span {
+    color: white;
+}
+
+#pblue #spangreen {
+    color: #9AAF90;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1em;
+}
+
+#contact a {
+    padding: 0em;
+    font-size: 50px;
+    margin: 0.2em;
+    background-color: transparent;
+}
+
+#contact a:hover {
+    color: rgb(108, 60, 140);
+}
+
+#skillsdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1em;
+}
+
+#skillsdiv div {
+    padding: 0px 1em;
+    background-color: #9AAF90;
 }
