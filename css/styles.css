@@ -135,7 +135,9 @@ a:hover {
 
 #skillsdiv div {
     padding: 0px 1em;
-    background-color: #9AAF90;
+    background-color: #212121;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px #000000;
 }
 
 #projects div {
