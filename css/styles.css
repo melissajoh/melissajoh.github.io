@@ -57,7 +57,7 @@ a:hover {
 }
 
 #about {
-    margin-bottom: 5em;
+    margin: 15em auto;
     font-family: monospace;
 }
 
@@ -243,9 +243,8 @@ button {
     padding: 0.8em 1.2em;
     margin: auto;
     background-color: #1A1A1A;
-    border-color: #b393d3;
     border-style: solid;
-    border-width: 5px;
+    border-width: 0px;
     border-radius: 30px;
     font-size: 1em;
     font-weight: 700;
@@ -254,5 +253,5 @@ button {
 
 button:hover {
     color: white;
-    border-color: white;
+    background-color: #b393d3;
 }
