@@ -133,29 +133,44 @@ a:hover {
     color: rgb(108, 60, 140);
 }
 
+#skillswrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /*flex-wrap: wrap;
+    justify-content: center;*/
+    margin: auto;
+    max-width: 1000px;
+}
+
+#skillstext {
+    margin: 0 1em;
+}
+
 #skillsdiv {
+    font-family: monospace;
+    background-color: #212121;
+    padding: 1em;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
     margin: auto;
-    max-width: 900px;
+    max-width: 100%;
 }
 
 #skillsdiv div {
-    padding: 0px 2em;
-    background-color: #212121;
+    padding: 1em 2em;
+    /*background-color: #212121;
     border-radius: 6px;
     box-shadow: 5px 5px 10px #000000;
-    margin: 1em;
+    margin: 1em;*/
 }
 
 .projectSlideshow {
-    background-color: lightgray;
-    color: black;
+    background-color: #212121;
+    color: white;
     max-width: 700px;
     margin: 2em auto;
-    padding: 1em;
+    padding: 2em;
     border-radius: 8px;
     box-shadow: 5px 5px 10px #000000;
     position: relative;
@@ -254,4 +269,12 @@ button {
 button:hover {
     color: white;
     background-color: #b393d3;
+}
+
+.projSkill {
+    background-color: lightgray;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 0.5em 0 0;
 }
