@@ -175,7 +175,7 @@ section h1 {
 .projectSlideshow {
     background-color: #212121;
     color: white;
-    max-width: 700px;
+    max-width: 800px;
     margin: 2em auto;
     padding: 2em;
     border-radius: 8px;
@@ -204,10 +204,12 @@ section h1 {
 
 .next {
     right: 0;
+    margin-right: 0.3em;
 }
 
 .prev {
     left: 0;
+    margin-left: 0.3em;
 }
 
 .prev:hover, .next:hover {
@@ -252,7 +254,7 @@ section h1 {
 
 #projects a {
     padding: 0em;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -286,7 +288,7 @@ button:hover {
     margin: 0 0.5em 0 0;
 }
 
-/* Timeline w education and work experience */
+/* ---- Timeline w education and work experience ---- */
 * {
     box-sizing: border-box;
 }
