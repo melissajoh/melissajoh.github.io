@@ -248,6 +248,11 @@ section h1 {
     margin: 1em;*/
 }
 
+.fa-star {
+    font-size: 0.6em;
+    margin-left: 2px;
+}
+
 @media (max-width: 768px) {
     #skillswrap {
         grid-template-columns: 1fr;
