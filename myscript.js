@@ -26,3 +26,11 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+// Menu/navbar mobile
+const menuBtn = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+});
