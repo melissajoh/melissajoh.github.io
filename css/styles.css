@@ -240,6 +240,8 @@ section h1 {
 
 #skillsdiv div {
     padding: 1em 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,
+                'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol';
     /*background-color: #212121;
     border-radius: 6px;
     box-shadow: 5px 5px 10px #000000;
